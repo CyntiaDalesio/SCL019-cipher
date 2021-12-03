@@ -1,0 +1,162 @@
+#body{
+background: url(https://generacionxbox.com/wp-content/uploads/2020/01/League-of-Legends-Grieta-940x529.jpg.webp) no-repeat center center fixed;
+-webkit-background-size: cover; 
+ -moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#first{
+    background: url(https://www.wallpaperuse.com/wallp/90-902890_m.jpg) center center fixed;
+    -webkit-background-size: cover; 
+     -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+ 
+section {
+   align-content: center;
+   text-align: center;
+}
+.h1 {
+    animation: bouncel 5s alternate infinite ease-in;
+}
+@keyframes bouncel {
+    0%{
+        transform: translate(20%);
+    }
+    100%{
+        transform: translate(60%);
+    }
+}
+
+.h1mesagge {
+    animation: bouncel 5s alternate infinite ease-in;
+}
+@keyframes bouncel {
+    0%{
+        transform: translate(20%);
+    }
+    100%{
+        transform: translate(60%);
+    }
+}
+
+.h1 , .h2 {
+    color:white;
+}
+
+nav {
+    font-family: cursive;
+  padding: 1rem;
+}
+
+#string {
+    
+    border-radius: 0;
+    caret-color: #27c7ba;
+    border: 1px solid #1af85c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(28, 238, 238, 0.925);
+transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
+}
+#stringOutput, input {
+    
+    border-radius: 0;
+    caret-color: #27c7ba;
+    border: 1px solid #1af85c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(28, 238, 238, 0.925);
+transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
+    
+}
+#decode,#encode {
+
+    background-color: rgb(139, 211, 245);
+    
+}
+
+button:hover {
+
+background-color: hotpink;
+}
+
+ #encode:hover, #decode:hover{
+    background-color: hotpink;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+select#regiones  {
+background-color: rgb(132, 222, 238);
+color: rgb(15, 11, 15);
+border: 2px black solid ;
+padding:  10px;
+}
+select#regiones:active{
+
+    color: yellow;
+}
+select:active{
+    color: red;
+       
+    }
+select#zona {
+    padding:  10px;
+    background-color: rgb(104, 218, 100);
+    
+}
+
+.div {
+
+width: 450px;
+margin: auto;
+background: rgba(233, 179, 179, 0.6);
+padding: 10px 20 px;
+box-sizing: border-box;
+margin-top: 20px;
+border-radius: 7px;
+
+
+}
+.submit:hover {
+    background-color: hotpink;
+
+}
+
+.h2 {
+    background: rgba(233, 179, 179, 0.6);
+
+}
+
+input, textarea {
+
+    width: 50%;
+   
+    padding: 10px 20px;
+box-sizing: border-box;
+
+}
+textarea {
+
+    min-height: 50px;
+    max-height: 100px;
+    max-width: 100%;
+}
+/* @media (max-width:450px){
+div{
+    width: 100%;
+}
+
+} */
+.buttons {
+    margin-top: 20px;
+}
