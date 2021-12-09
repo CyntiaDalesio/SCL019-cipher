@@ -5,77 +5,79 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body id="first">
   <nav>
     <h1 class="h1">Bienvenido A Cipher of Legends</h1>
-  
+  </nav>
+
+  <div class="div">
+    <h2 class="h2">La mensajería instantánea e incriptada de los vencedores</h2>
+    <label>Selecciona tu región</label>
+    <article>
+
+      <select id="regiones">
+
+        <option value="aguasturbias">AGUASTURBIAS</option>
+        <option value="bandle">CIUDAD DE BANDLE</option>
+        <option value="demasia">DEMASIA</option>
+        <option>EL FRÉLJORD</option>
+        <option value="el vacio">EL VACIO</option>
+        <option>ISLAS DE LA SOMBRA</option>
+        <option>IXTAL</option>
+        <option>JONIA</option>
+        <option>NOXUS</option>
+        <option>PILTÓVER</option>
+        <option>SHURIMA</option>
+        <option>TARGÓN</option>
+        <option>ZAUN</option>
+      </select>
+
+    </article>
    
-</nav>
 
-<!-- <h2 class="h2">La mensajería instantánea e incriptada de los vencedores</h2> -->
+    <label>Seleccione tu contacto</label>
+    <article>
 
+      <select id="champ">
 
- <div class="div">
-  <h2 class="h2">La mensajería instantánea e incriptada de los vencedores</h2>
+        <option value="yummi">YUMMI</option>
+        <option value="veigar">VEIGAR</option>
+        <option value="jinx">JINX</option>
+        <option value="teemo">TEEMO</option>
+        <option value="ashe">ASHE</option>
+        <option value="amumu">AMUMU</option>
+        <option value="lulu">LULU</option>
+        <option value="Heimerdinger">MORGANA</option>
+        <option value="thresh">THRESH</option>
+        <option value="gragas">GRAGAS</option>
+        <option value="vi">VI</option>
+        <option value="sona">SONA</option>
+        <option value="warwick">WARWICK</option>
+      </select>
+    </article>
+   
+    <label>Ingrese el mail del contacto</label>
+    <br>
+    
+    <form action="/mesagge.html">
 
+      <input type="email" name="email" id="email" placeholder="Ingrese el email" required>
+      <br>
+      <br>
 
-  <p>Selecciona tu región</p>
-  <select id="regiones"> 
-  
-    <option id="aguasturbias">AGUASTURBIAS</option>
-    <option >CIUDAD DE BANDLE</option>
-    <option>DEMASIA</option>
-    <option>EL FRÉLJORD</option>
-    <option>EL VACIO</option>
-    <option>ISLAS DE LA SOMBRA</option>
-    <option>IXTAL</option>
-    <option>JONIA</option>
-    <option>NOXUS</option>
-    <option>PILTÓVER</option>
-    <option>SHURIMA</option>
-    <option>TARGÓN</option>
-    <option>ZAUN</option>
-  </select>
-  
-   <p>Seleccione la región de tu contacto</p>
-  <select id="zona"> 
-  
-    <option>AGUASTURBIAS</option>
-    <option>CIUDAD DE BANDLE</option>
-    <option>DEMASIA</option>
-    <option>EL FRÉLJORD</option>
-    <option>EL VACIO</option>
-    <option>ISLAS DE LA SOMBRA</option>
-    <option>IXTAL</option>
-    <option>JONIA</option>
-    <option>NOXUS</option>
-    <option>PILTÓVER</option>
-    <option>SHURIMA</option>
-    <option>TARGÓN</option>
-    <option>ZAUN</option>
-  </select>
-<br>
-<br>
-<label>Ingrese el mail del contacto</label>
-<br>
-<br>
-<form action="/mesagge.html">
-
-  <input type="email" name="email" id="email" placeholder="Ingrese el email" required>
-  <br>
-  <br>
-
-  <button type="submit" value="Siguiente">Siguiente</button>
-</form>
+      <button type="submit" value="Next">Siguiente</button>
+      <br>
+    </form>
 
 
 
- </div>
+  </div>
 
 
-    <script src="index.js" type="module"></script>
+  <script src="index.js" type="module"></script>
 
 
 

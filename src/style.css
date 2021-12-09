@@ -72,9 +72,20 @@ transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out;
 transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
     
 }
+button {
+   
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #0f7012}
 #decode,#encode {
 
     background-color: rgb(139, 211, 245);
+    box-shadow: 0 5px #3368ad;
     
 }
 
@@ -109,10 +120,10 @@ select:active{
     color: red;
        
     }
-select#zona {
+select#champ {
     padding:  10px;
     background-color: rgb(104, 218, 100);
-    
+    border: 2px black solid ;
 }
 
 .div {
@@ -124,7 +135,7 @@ padding: 10px 20 px;
 box-sizing: border-box;
 margin-top: 20px;
 border-radius: 7px;
-
+box-shadow: 10px 10px rgba(233, 179, 179);
 
 }
 .submit:hover {
@@ -145,18 +156,39 @@ input, textarea {
 box-sizing: border-box;
 
 }
-textarea {
 
+
+
+textarea {
+   margin-bottom: 20px; /*espacio entre textarea y el label de abajo*/
     min-height: 50px;
     max-height: 100px;
     max-width: 100%;
 }
-/* @media (max-width:450px){
-div{
-    width: 100%;
+.buttons {
+    margin-top: 10px;
 }
 
-} */
-.buttons {
-    margin-top: 20px;
+button, select {
+    margin-bottom: 20px; 
 }
+
+button a {
+   
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #0f7012}
+
+  
+  
+  button a:hover,button:hover {background-color: #b612a8}
+  
+  button a:active, button:active {
+    background-color: #b612a8;
+    transform: translateY(4px);
+  }
