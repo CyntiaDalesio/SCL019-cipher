@@ -71,3 +71,8 @@ Para el funcionamiento de la mensajería se agregó la selección del contacto a
 
 - [ ->  ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
+### UX (User eXperience)
+
+- [ ->  ] **Diseñar la aplicación pensando en y entendiendo al usuario**
+
+- [ ->  ] **Crear prototipos para obtener feedback e iterar**
