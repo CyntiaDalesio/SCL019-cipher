@@ -8,14 +8,66 @@ La aplicación utiliza el cifrado césar para enviar los mensajes de forma codif
 
 El prototipo inicial dibujado en papel fue:
 
-![intento de imagen](https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/prototipoPapel.jpeg)
+![imagen](https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/prototipoPapel.jpeg)
 
 
 El prototipo realizado en Figma:
 
-![intento de imagen](https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/prototipo1.jpeg)
+![imagen](https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/prototipo1.jpeg)
 
 
 El proyecto final: 
 
+![imagen]
+
+Para el funcionamiento de la mensajería se agregó la selección del contacto al cual deseamos enviarle un  mensaje encriptado. También el campo del mail para especificar el destinatario. A su vez, la selección de la región de dónde partirá dicho mensaje.
+
+## Objetivos de aprendizaje alcanzados
+
+
+### HTML
+
+- [ ->  ] **Uso de HTML semántico**
+
+### CSS
+
+- [ ->  ] **Uso de selectores de CSS**
+
+
+- [ ->  ] **Modelo de caja (box model): borde, margen, padding**
+
+
+### Web APIs
+
+- [  -> ] **Uso de selectores del DOM**
+
+- [ ->  ] **Manejo de eventos del DOM (listeners)**
+
+### JavaScript
+
+- [  -> ] **Tipos de datos primitivos**
+
+- [  -> ] **Strings (cadenas de caracteres)**
+
+- [  -> ] **Variables (declaración, asignación, ámbito)**
+
+- [ ->  ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+
+- [  -> ] **Uso de bucles/ciclos (while, for, for..of)**
+
+- [ ->  ] **Funciones (params, args, return)**
+
+- [  -> ] **Pruebas unitarias (unit tests)**
+
+<!-- - [ ] **Módulos de ECMAScript (ES Modules)**
+
+- [ ] **Uso de linter (ESLINT)** -->
+
+- [ ->  ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
+
+### Control de Versiones (Git y GitHub)
+
+- [ ->  ] **Git: Instalación y configuración**
+
+- [ ->  ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
