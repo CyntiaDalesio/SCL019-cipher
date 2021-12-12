@@ -5,7 +5,7 @@ export const cipher = {
       throw new TypeError();
     }
     let codeChar = 0;
-    let stringEncode = '';
+    let stringEncoded = '';
     for (let index = 0; index < stringValue.length; index++) {
 
       let char = parseInt(stringValue.charCodeAt(index));
@@ -14,20 +14,20 @@ export const cipher = {
 
         codeChar = parseInt(((char - 65 + offsetValue) % 26) + 65);
 
-        stringEncode += String.fromCharCode(codeChar);
+        stringEncoded += String.fromCharCode(codeChar);
 
       } else if (char >= 97 && char <= 122) {
         codeChar = parseInt(((char - 97 + offsetValue) % 26) + 97);
 
-        stringEncode += String.fromCharCode(codeChar);
+        stringEncoded += String.fromCharCode(codeChar);
       } else {
 
-        stringEncode += String.fromCharCode(char);
+        stringEncoded += String.fromCharCode(char);
 
       }
     }
 
-    return stringEncode;
+    return stringEncoded;
   },
 
 
@@ -38,7 +38,7 @@ export const cipher = {
 
 
     let codeChar = 0;
-    let stringDecode = "";
+    let stringDecoded = "";
 
 
     for (let index = 0; index < stringValue.length; index++) {
@@ -50,23 +50,23 @@ export const cipher = {
 
         codeChar = parseInt(((char + 65 - offsetValue) % 26) + 65);
 
-        stringDecode += String.fromCharCode(codeChar);
+        stringDecoded += String.fromCharCode(codeChar);
       } else if (char>= 97 && char<= 122) {
         
         codeChar = parseInt(((char + 97 + offsetValue) % 26) + 97);
         
-        stringDecode += String.fromCharCode(codeChar);
+        stringDecoded += String.fromCharCode(codeChar);
         
       } else {
 
-        stringDecode += String.fromCharCode(char);
+        stringDecoded += String.fromCharCode(char);
       }
 
 
 
 
     }
-    return stringDecode;
+    return stringDecoded;
   }
 }
 

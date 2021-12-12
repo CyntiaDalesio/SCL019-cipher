@@ -1,12 +1,22 @@
 import cipher from './cipher.js';
 
-// document.getElementById("encode").onclick = encode; 
 let buttonEncode = document.getElementById('encode');
-// document.getElementById("decode").onclick = decode;
+
 let buttonDecode = document.getElementById('decode');
-// document.getElementById("delete").onclick = clear;//funcion para borrar 
-let buttonClear = document.getElementById('delete');
-//validaciones 
+
+let buttonClear = document.getElementById('clear');
+
+let buttonSend = document.getElementById('send');
+
+let buttonBack= document.getElementById('back');
+//validaciones por que si eran null no seguia el scrip
+if (buttonBack != null) {
+   buttonBack.addEventListener('click',back);
+}
+
+if (buttonSend != null) {
+   buttonSend.addEventListener('click',send);
+}
 if (buttonClear != null) {
    buttonClear.addEventListener('click', clear);
 }
@@ -15,13 +25,9 @@ if (buttonEncode != null) {
 
    buttonEncode.addEventListener('click', encode);
 }
-if (buttonDecode != null) { // si era null se paraba y  no seguia
+if (buttonDecode != null) { 
    buttonDecode.addEventListener('click', decode);
 }
-// buttonEncode.addEventListener('click',encode);
-// buttonDecode.addEventListener('click',decode);
-// buttonClear.addEventListener('click',clear);
-/*improvisando para cambiar el fondo*/
 
 
 let champ = document.getElementById('champ');
@@ -30,7 +36,7 @@ if (champ != null) {
 
    champ.addEventListener('change', function () {
 
-
+      document.body.style.transition='1s';
       switch (champ.value) {
          case 'yummi':
 
@@ -57,7 +63,7 @@ if (champ != null) {
          case 'lulu':
             document.body.style.backgroundImage = "url('https://www.esportmaniacos.com/wp-content/uploads/2021/11/Lulu_0.jpg')";
             break;
-         case 'morgana':
+         case 'heimerdinger':
             document.body.style.backgroundImage = "url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg')";
             break;
          case 'thresh':
@@ -80,6 +86,10 @@ if (champ != null) {
    })
 }
 
+function back(){
+// document.URL("/index.html");
+   window.location.href = "/index.html"
+}
 
 function clear() {
    document.getElementById('stringOutput').value = '';
@@ -87,6 +97,25 @@ function clear() {
    document.getElementById('offset').value = '1';
 }
 
+
+function send(){
+
+if (document.getElementById('stringOutput').value =='' || document.getElementById('string').value =='') {
+   
+   alert('No ha escrito ningún mensaje');
+
+
+} else {
+   alert('Mensaje enviado con éxito!!');
+   window.location.href = "/index.html"
+}
+
+
+
+   
+
+
+}
 
 function encode() {
 

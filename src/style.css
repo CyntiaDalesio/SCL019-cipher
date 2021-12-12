@@ -55,20 +55,20 @@ nav {
     
     border-radius: 0;
     caret-color: #27c7ba;
-    border: 1px solid #1af85c;
+    border: 1px solid #7f9285;
     border-radius: 5px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 10px rgba(28, 238, 238, 0.925);
+    box-shadow: 2px 2px 10px #a6a6a6;
 transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
 }
 #stringOutput, input {
     
     border-radius: 0;
     caret-color: #27c7ba;
-    border: 1px solid #1af85c;
+    border: 1px solid #7f9285;
     border-radius: 5px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 10px rgba(28, 238, 238, 0.925);
+    box-shadow: 1px 1px 10px #a6a6a6;
 transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
     
 }
@@ -81,11 +81,11 @@ button {
     background-color: #4CAF50;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 5px #0f7012}
+    box-shadow: 0 5px #646464}
 #decode,#encode {
 
     background-color: rgb(139, 211, 245);
-    box-shadow: 0 5px #3368ad;
+    box-shadow: 0 5px #646464;
     
 }
 
@@ -106,24 +106,27 @@ h2 {
 div {
     text-align: center;
 }
-select#regiones  {
+select#region{
 background-color: rgb(132, 222, 238);
 color: rgb(15, 11, 15);
 border: 2px black solid ;
 padding:  10px;
+width:200px; 
 }
-select#regiones:active{
+/* select#region:active{
 
     color: yellow;
 }
 select:active{
     color: red;
        
-    }
+    } */
 select#champ {
     padding:  10px;
     background-color: rgb(104, 218, 100);
     border: 2px black solid ;
+    
+     width:200px; 
 }
 
 .div {
@@ -135,7 +138,7 @@ padding: 10px 20 px;
 box-sizing: border-box;
 margin-top: 20px;
 border-radius: 7px;
-box-shadow: 10px 10px rgba(233, 179, 179);
+box-shadow: 10px 10px #a6a6a6;
 
 }
 .submit:hover {
@@ -182,9 +185,12 @@ button a {
     background-color: #4CAF50;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 5px #0f7012}
+    box-shadow: 0 5px #646464}
 
-  
+  .submit {
+    margin: 20px; 
+
+  }
   
   button a:hover,button:hover {background-color: #b612a8}
   
