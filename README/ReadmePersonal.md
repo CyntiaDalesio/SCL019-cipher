@@ -12,9 +12,10 @@ El prototipo inicial dibujado en papel fue:
 
 
 El prototipo realizado en Figma:
+
 ![intento de imagen](https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/prototipo1.jpeg)
 
 
-El proyecto final fue: 
+El proyecto final: 
 
 
