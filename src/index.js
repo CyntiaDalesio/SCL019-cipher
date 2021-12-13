@@ -8,14 +8,14 @@ let buttonClear = document.getElementById('clear');
 
 let buttonSend = document.getElementById('send');
 
-let buttonBack= document.getElementById('back');
+let buttonBack = document.getElementById('back');
 //validaciones por que si eran null no seguia el scrip
 if (buttonBack != null) {
-   buttonBack.addEventListener('click',back);
+   buttonBack.addEventListener('click', back);
 }
 
 if (buttonSend != null) {
-   buttonSend.addEventListener('click',send);
+   buttonSend.addEventListener('click', send);
 }
 if (buttonClear != null) {
    buttonClear.addEventListener('click', clear);
@@ -25,7 +25,7 @@ if (buttonEncode != null) {
 
    buttonEncode.addEventListener('click', encode);
 }
-if (buttonDecode != null) { 
+if (buttonDecode != null) {
    buttonDecode.addEventListener('click', decode);
 }
 
@@ -36,7 +36,7 @@ if (champ != null) {
 
    champ.addEventListener('change', function () {
 
-      document.body.style.transition='1s';
+      document.body.style.transition = '1s';
       switch (champ.value) {
          case 'yummi':
 
@@ -86,8 +86,8 @@ if (champ != null) {
    })
 }
 
-function back(){
-// document.URL("/index.html");
+function back() {
+   // document.URL("/index.html");
    window.location.href = "/index.html"
 }
 
@@ -98,21 +98,21 @@ function clear() {
 }
 
 
-function send(){
+function send() {
 
-if (document.getElementById('stringOutput').value =='' || document.getElementById('string').value =='') {
-   
-   alert('No ha escrito ningún mensaje');
+   if (document.getElementById('stringOutput').value == '' || document.getElementById('string').value == '') {
 
-
-} else {
-   alert('Mensaje enviado con éxito!!');
-   window.location.href = "/index.html"
-}
+      alert('No ha escrito ningún mensaje');
 
 
+   } else {
+      alert('Mensaje enviado con éxito!!');
+      window.location.href = "/index.html"
+   }
 
-   
+
+
+
 
 
 }

@@ -39,26 +39,36 @@ export const cipher = {
 
     let codeChar = 0;
     let stringDecoded = "";
-
+    let boolean = false;
 
     for (let index = 0; index < stringValue.length; index++) {
 
+      if (stringValue.charAt(index) === stringValue.charAt(index).toLowerCase()) {
 
-      let char = parseInt(stringValue.charCodeAt(index));
-      
+        boolean = true;
+
+      } else { boolean = false; }
+
+      let char = parseInt(stringValue.toUpperCase().charCodeAt(index));
+
+
+
+
       if (char >= 65 && char <= 90) {
 
         codeChar = parseInt(((char + 65 - offsetValue) % 26) + 65);
 
-        stringDecoded += String.fromCharCode(codeChar);
-      } else if (char>= 97 && char<= 122) {
-        
-        codeChar = parseInt(((char + 97 + offsetValue) % 26) + 97);
-        
-        stringDecoded += String.fromCharCode(codeChar);
-        
-      } else {
+        if (boolean) {
 
+          stringDecoded += String.fromCharCode(codeChar).toLowerCase();
+        } else {
+
+          stringDecoded += String.fromCharCode(codeChar);
+        }
+
+      }
+
+      else {
         stringDecoded += String.fromCharCode(char);
       }
 

@@ -78,24 +78,24 @@ button {
     cursor: pointer;
     text-align: center;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #4e704f;
     border: none;
     border-radius: 5px;
     box-shadow: 0 5px #646464}
 #decode,#encode {
 
-    background-color: rgb(139, 211, 245);
+    background-color: #4e704f;
     box-shadow: 0 5px #646464;
     
 }
 
 button:hover {
 
-background-color: hotpink;
+background-color: #b612a8;
 }
 
  #encode:hover, #decode:hover{
-    background-color: hotpink;
+    background-color: #b612a8;
 
 
 }
@@ -107,23 +107,16 @@ div {
     text-align: center;
 }
 select#region{
-background-color: rgb(132, 222, 238);
+background-color: rgb(204, 204, 204);
 color: rgb(15, 11, 15);
 border: 2px black solid ;
 padding:  10px;
 width:200px; 
 }
-/* select#region:active{
 
-    color: yellow;
-}
-select:active{
-    color: red;
-       
-    } */
 select#champ {
     padding:  10px;
-    background-color: rgb(104, 218, 100);
+    background-color: rgb(204, 204, 204);
     border: 2px black solid ;
     
      width:200px; 
@@ -142,7 +135,7 @@ box-shadow: 10px 10px #a6a6a6;
 
 }
 .submit:hover {
-    background-color: hotpink;
+    background-color: #b612a8;
 
 }
 
@@ -198,3 +191,11 @@ button a {
     background-color: #b612a8;
     transform: translateY(4px);
   }
+footer {
+background-image: url('https://img.freepik.com/vector-gratis/fondo-oro-lujo_52683-43998.jpg?size=626&ext=jpg');
+color:whitesmoke;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+width: 100%;
+}
