@@ -9,7 +9,7 @@ let buttonClear = document.getElementById('clear');
 let buttonSend = document.getElementById('send');
 
 let buttonBack = document.getElementById('back');
-//validaciones por que si eran null no seguia el scrip
+//validaciones 
 if (buttonBack != null) {
    buttonBack.addEventListener('click', back);
 }
@@ -40,7 +40,7 @@ if (champ != null) {
       switch (champ.value) {
          case 'yummi':
 
-            document.body.style.backgroundImage = "url('https://www.wallpaperuse.com/wallp/90-902890_m.jpg  ')";
+            document.body.style.backgroundImage = "url('https://www.wallpaperuse.com/wallp/90-902890_m.jpg')";
             break;
 
          case 'veigar':
@@ -87,7 +87,7 @@ if (champ != null) {
 }
 
 function back() {
-   // document.URL("/index.html");
+  
    window.location.href = "/index.html"
 }
 
