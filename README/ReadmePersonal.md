@@ -18,9 +18,9 @@ El prototipo realizado en Figma:
 
 El proyecto final: 
 
-![imagen] (https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/resultado.PNG)
+![imagen] (https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/resultado.jpeg)
 
-![imagen] (https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/resultado2.PNG)
+![imagen] (https://github.com/CyntiaDalesio/SCL019-cipher/blob/main/README/resultado2.jpeg)
 
 
 Para el funcionamiento de la mensajería se agregó la selección del contacto al cual deseamos enviarle un  mensaje encriptado. También el campo del mail para especificar el destinatario. A su vez, la selección de la región de dónde partirá dicho mensaje.
